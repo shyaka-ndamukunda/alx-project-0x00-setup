@@ -1,1 +1,24 @@
-} 
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": "C:/Users/np/Documents/ALX-Projects/alx-project-0x00-setup",
+    "paths": {
+      "@/*": ["C:/Users/np/Documents/ALX-Projects/alx-project-0x00-setup/*"]
+    }
+  },
+  "include": ["C:/Users/np/Documents/ALX-Projects/alx-project-0x00-setup/**/*.ts", "C:/Users/np/Documents/ALX-Projects/alx-project-0x00-setup/**/*.tsx"],
+  "exclude": ["node_modules"]
+}
