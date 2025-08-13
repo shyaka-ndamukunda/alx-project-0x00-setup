@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../components/Card";
-import Button from "../components/Button"; // Correct import path for the Button component
+import Button from "@/components/Button"; // Correct import path using the alias
 
 const Landing: React.FC = () => {
   return (
@@ -21,6 +21,7 @@ const Landing: React.FC = () => {
         {/* Buttons with different shapes */}
         <Button title="Rounded Small" styles="rounded-sm" />
         <Button title="Rounded Medium" styles="rounded-md" />
+        <Button title="Rounded Large" styles="rounded-lg" />
         <Button title="Rounded Full" styles="rounded-full" />
       </div>
     </div>
